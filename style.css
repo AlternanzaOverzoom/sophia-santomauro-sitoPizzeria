@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  color: green;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: green;
+  text-align: center;
+}
+
+.container button {
+  background-color: red;
+  border: none; 
+  color: white;
+  width: 70px;
+}
+
+
+#email {
+  width: 200px;
+}
+
+#password{
+  width: 178px;
+}
+
