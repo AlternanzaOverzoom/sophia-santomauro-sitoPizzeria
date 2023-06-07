@@ -42,8 +42,8 @@ body {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .riquadro {
@@ -54,13 +54,13 @@ body {
 }
 
 .riquadro img {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .riquadro p {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .riquadro h2 {
